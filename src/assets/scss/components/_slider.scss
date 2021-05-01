@@ -12,7 +12,7 @@
     font-size: 32px;
     position: absolute;
     padding: 8px 12px;
-    bottom: 33.33333%;
+    top: 25%;
     width: 100%;
     text-align: center;
     text-shadow: 3px 3px 13px $ow-black-opa-dark;
@@ -20,14 +20,14 @@
       color: $ow-orange;
     }
     & p {
-      font-size: 0.55em;
+      font-size: 0.4em;
       margin-top: 1em;
       letter-spacing: 0.3em;
       font-weight: 400;
       text-align: center;
     }
     & h2 {
-      font-size: 5rem;
+      font-size: 4rem;
   }
     & .boton {
       font-size: 18px;
@@ -73,7 +73,7 @@
   & .ow-slide-01 {
     background: url(/wp-content/uploads/2017/09/Ocelot.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position:bottom;
   }
   & .ow-slide-02 {
     background: url(/wp-content/uploads/2018/08/Salsipuedes_Beach_2.jpg);
@@ -94,7 +94,7 @@
   }
   & .overlay {
     position: absolute;
-    background: $ow-black-opa;
+    background: $ow-black-opa-mid;
     top: 0;
     right: 0;
     width: 100%;
@@ -133,24 +133,33 @@
   display: inline-flex;
   background: $ow-black-opa-dark;
   height: auto;
-    z-index: 3;
-    width: 100vw;
-    margin: 0 auto;
-    justify-content: space-between;
-    overflow-x: auto;
-    flex-wrap: nowrap;
+  z-index: 3;
+  width: 100vw;
+  margin: 0 auto;
+  justify-content: center;
+  overflow-x: auto;
+  flex-wrap: nowrap;
   &__icon{
     padding: 1rem;
-    border: 1px solid $ow-brown-opa-dark;
     display: inline-table;
     height: auto;
     min-width: 181px;
+    &:hover img{
+      transform: scale(1.15) translateY(-1px);
+      opacity: 1;
+    }
+    &:hover .ow-slider-icons__title{
+      opacity: 1;
+    }
     & img {
       position: relative;
       margin: 1rem auto;
       display: block;
       width: auto;
-      height: 76px;
+      height: 50px;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transform: scale(1) translateY(0);
+      opacity: 0.5;
     }
   }
   &__title{
@@ -159,11 +168,13 @@
     text-align: center;
     font-size: 10px;
     display: block;
-    width: 90%;
     line-height: 15px;
     text-transform: uppercase;
-    height: 30px;
+    height: 18px;
     font-weight: 500;
+    padding: 0;
+    margin-bottom: 10px;
+    opacity: 0.7;
   }
 }
 
