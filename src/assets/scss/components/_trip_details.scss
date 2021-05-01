@@ -1,0 +1,78 @@
+/* Trip Detail */
+
+.trip-detail .text-box:before,
+.text-box li:before {
+  color: #8bc34a;
+}
+.trip-detail .text-box.not-included:before,
+.text-box.not-included li:before {
+  color: #f44336;
+}
+.partner-block a:hover img {
+  display: inline-block;
+}
+.trip-info .price strong:after {
+  content: 'per person';
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  color: #8d8d8d;
+  font-style: italic;
+  top: -20px;
+}
+.thumbnail span.price:after,
+.sub-info:after {
+  content: 'per person';
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  width: 100%;
+  color: #8d8d8d;
+  font-style: italic;
+  top: -8px;
+}
+.product_cat_cultural-spark .trip-info .price strong:after,
+.product_cat_fun-wild-adventures .trip-info .price strong:after,
+.product_cat_golfo-dulce-magic .trip-info .price strong:after,
+.postid-1890 .trip-info .price strong:after {
+  content: 'per person';
+}
+.sub-info:after {
+  top: 0px;
+  right: 5px;
+}
+.recent-block .thumbnail {
+  min-height: 164px !important;
+}
+.recent-block .thumbnail .img-wrap {
+  max-height: 147px !important;
+}
+body.postid-1883 .trip-info .price strong:after {
+  content: 'per person (minimum 4 pax)';
+}
+div#tab02 article.img-article.article-light .text-block {
+  display: none;
+}
+ol.detail-accordion strong.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: #57bd79;
+}
+ol.detail-accordion span {
+  font-size: 16px;
+}
+.detail-accordion > li:hover:after {
+  border-color: #57bd79;
+}
+.bg-stretch img {
+  top: 0px !important;
+}
+.trip-info {
+  min-height: 100vh;
+}

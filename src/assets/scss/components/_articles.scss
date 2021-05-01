@@ -1,0 +1,60 @@
+.article {
+  & .ico-article .ico-holder {
+    margin: 0 0 0;
+  }
+  & .thumbnail {
+    & p {
+      letter-spacing: 0.01em;
+      font-size: 12px;
+      margin-bottom: 10px;
+      line-height: 18px;
+    }
+    & .meta {
+      display: none;
+    }
+    & .img-wrap {
+      max-height: 230px;
+      overflow: hidden;
+    }
+  }
+}
+
+.recent-block {
+  & .info-title {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  & .article {
+    & h3 {
+      margin: 0;
+      font-size: 21px;
+      min-height: 45px;
+      line-height: 1em;
+      &.small-space {
+        font-size: 17px;
+      }
+    }
+    & .thumbnail {
+      min-height: 337px;
+      & p {
+        min-height: 72px;
+      }
+    }
+  }
+  & .img-wrap {
+    max-height: 170px !important;
+    position: relative;
+  }
+  & .ico-list {
+    display: none;
+  }
+}
+
+.content-intro .map-col {
+  display: none;
+}
+.content-intro .text-holder {
+  margin: 0 auto 4em;
+  display: block;
+  float: none;
+}

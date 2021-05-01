@@ -1,0 +1,4 @@
+node_modules
+packaged
+woocommerce/backup
+!dist

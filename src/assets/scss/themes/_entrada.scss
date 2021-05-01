@@ -1,0 +1,88 @@
+.preloader {
+  background: white;
+}
+.parallax.banner-inner:before {
+  background: rgba(0, 0, 0, 0.27);
+}
+
+.adventure-holder.gallery-home-holder a.btn {
+  margin-top: 1em;
+}
+.adventure-holder.gallery-home-holder.text-block {
+  padding-top: 0;
+}
+
+.trip-info .text-col .holder {
+  padding: 10em 1em 1em 1em;
+}
+.trip-info h1 {
+  margin-bottom: 0;
+  color: #f1f1f1 !important;
+}
+.trip-info .price strong {
+  margin-top: 0;
+}
+
+.seperator:before {
+  background: #5bbd79;
+}
+.seperator {
+  margin-bottom: 1em;
+  border-color: #5bbd79;
+  padding-bottom: 2em;
+}
+
+.bg-stretch img {
+  position: absolute;
+  top: 10vh;
+}
+
+div#tripadvisor-testimonials .btn {
+  font-size: 12px !important;
+  margin: 0.5rem;
+}
+div#tripadvisor-testimonials img {
+  width: 100%;
+}
+
+.logo:before {
+  display: none;
+}
+.fixed-position .logo {
+  padding: 1px 0;
+}
+
+.holder {
+  display: inline-block;
+}
+
+.guide-sub .holder {
+  display: block !important;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.alert-warning ul {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.logo {
+  border: none;
+}
+.logo a {
+  padding: 1%;
+}
+.logo img {
+  max-width: 212px;
+  margin-top: 2px !important;
+}
+.logo img.gray-logo {
+  max-height: 40px !important;
+  margin-top: 1em;
+}
+
+.default-page .logo {
+  position: relative;
+}

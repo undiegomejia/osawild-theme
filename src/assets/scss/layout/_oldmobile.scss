@@ -1,0 +1,128 @@
+@media only screen and (min-width: 1230px) {
+  .default-page #main {
+    padding-top: 53px;
+  }
+  #header {
+    height: 102px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    height: 23px;
+  }
+  #header.fixed-position .navbar-default .navbar-nav > li > a {
+    height: 22px;
+  }
+  #header.white-header.fixed-position,
+  .default-page #header.white-header.fixed-position {
+    background: #f8f8f8eb;
+    border-bottom: none;
+  }
+  .banner.banner-inner {
+    background-position: center -22rem !important;
+  }
+  .logo {
+    width: 240px;
+    height: 70px;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #footer > .container {
+    padding: 4em 0;
+  }
+  .content-block {
+    padding: 2em 0;
+  }
+  .content-block.guide-sub .img-article {
+    margin-top: 0;
+  }
+
+  .content-intro {
+    padding-bottom: 0;
+  }
+  .banner.banner-inner .banner-text {
+    bottom: 15px;
+  }
+  .banner.banner-inner .banner-text .center-text {
+    margin: 0;
+  }
+  .content-intro .text-holder {
+    padding-top: 3em;
+  }
+  #header.fixed-position .navbar-default .navbar-nav > li .dropdown-menu {
+    margin-top: -3px;
+    border-top: 1px solid transparent;
+    background-color: #252525;
+  }
+  #header.fixed-position .navbar-default .navbar-nav > li .dropdown-menu a {
+    color: white;
+  }
+  header#header {
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .logo a {
+    padding: 2px;
+  }
+  .logo a {
+    position: relative;
+    top: 9px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tab-container .nav-tabs,
+  .tab-container .nav-tabs > * {
+    text-align: center;
+  }
+  .trip-info .price {
+    margin-bottom: 0;
+  }
+  .logo a {
+    padding: 0.55rem;
+  }
+  .banner-inner .banner-text h1 {
+    left: 0;
+    font-size: 1.2em;
+    display: block;
+  }
+
+  .banner.banner-inner {
+    justify-content: flex-start;
+  }
+
+  .banner-text:before {
+    top: -9rem;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header#header {
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+  }
+  .banner.banner-inner {
+    background-position: -17rem -7rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo img {
+    width: 177px !important;
+    margin-top: 8px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) and (orientation: portrait) {
+  .bg-stretch img {
+    top: -17vh;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .bg-stretch img {
+    top: -100%;
+  }
+}

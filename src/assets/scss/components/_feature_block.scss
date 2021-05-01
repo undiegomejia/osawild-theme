@@ -1,0 +1,62 @@
+.feature-block {
+  & li a .ico {
+    display: none;
+  }
+  & li a:hover .ico {
+    color: #5bbd79 !important;
+  }
+  & li:hover a .ico {
+    color: #5bbd79;
+  }
+  & .trip-detail {
+    padding: 2em 0;
+  }
+  & span.info:before {
+    content: ' ';
+    display: block;
+    width: 100%;
+    background: none;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 10px;
+    background-position: center;
+  }
+  & li.item-0 span.info:before {
+    background: url(/wp-content/uploads/2017/10/biodiversity.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & li.item-1 span.info:before {
+    background: url(/wp-content/uploads/2017/10/corcovadoadventures.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & li.item-2 span.info:before {
+    background: url(/wp-content/uploads/2017/10/cultural-spark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & li.item-3 span.info:before {
+    background: url(/wp-content/uploads/2017/10/magic-golfodulce.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & li.item-4 span.info:before {
+    background: url(/wp-content/uploads/2017/10/fun-wild.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & li.item-5 span.info:before {
+    background: url(/wp-content/uploads/2018/04/educational.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

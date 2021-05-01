@@ -1,0 +1,24 @@
+#aboutQuote {
+  background-size: contain;
+  color: $ow-white;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+#aboutServices {
+  & .ico-holder {
+    font-size: 4rem;
+    color: $ow-orange;
+  }
+}
+
+.vc_custom_1585072488857{
+  background-size: contain;
+  text-align: center;
+  color: $ow-white;
+}
+
+.ico-article .ico-holder span {
+  font-size: 4rem;
+  color: $ow-orange;
+}

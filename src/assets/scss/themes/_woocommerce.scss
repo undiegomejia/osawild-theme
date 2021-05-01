@@ -1,0 +1,15 @@
+ul.woocommerce-error {
+  text-align: right;
+  background: pink;
+  font-weight: bold;
+}
+.woocommerce-message {
+  text-align: right;
+  font-weight: bold;
+  background: lightblue;
+}
+.woocommerce-message .button {
+  background: #57bd79;
+  padding: 0 0.8em;
+  margin-left: 0.3em;
+}

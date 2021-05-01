@@ -1,0 +1,67 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300;
+  color: inherit;
+  line-height: 1.9;
+}
+.h3,
+h1,
+h2,
+h3,
+h4 {
+  color: inherit;
+  margin: 0 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: inherit;
+}
+p {
+  text-align: justify;
+}
+
+h1.small-size {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1.9em;
+}
+h2 {
+  font-weight: 100;
+}
+h2.small-space,
+h3.small-space {
+  line-height: 1em;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+ul.payment-option {
+  display: none;
+}
+.description-text h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.content-heading h2 {
+  color: #5c5e62;
+  margin-bottom: 0.4em;
+  font-size: 2.9rem;
+}
+.main-heading {
+  margin-bottom: 10px;
+}
+.main-subtitle {
+  font-size: 18px;
+}

@@ -1,0 +1,17 @@
+.partner {
+  margin: 0 !important;
+}
+.partner-block {
+  padding: 1em 0;
+  & a {
+    padding: 0 !important;
+    max-height: 156px !important;
+  }
+}
+.partner-list a img {
+  max-height: 100%;
+}
+div#partner-slide {
+  overflow: hidden;
+  max-height: 116px;
+}

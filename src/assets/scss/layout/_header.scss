@@ -1,0 +1,42 @@
+header#header {
+  background: $ow-black-opa-dark;
+  border-bottom: none;
+  height: auto;
+}
+
+#header.fixed-position .search-form .search-opener {
+  display: none;
+}
+
+#header.fixed-position .search-form .search-wrap .search-opener {
+  display: block;
+}
+
+#header.fixed-position .navbar-default .navbar-nav > li {
+  padding-top: 25px;
+}
+
+#header.fixed-position .navbar-default .navbar-nav > li .dropdown-menu {
+  margin-top: 0;
+  border-top: 1px solid transparent;
+}
+.header-box {
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.gallery-list .info {
+  letter-spacing: 1px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  padding: 0 4px;
+  font-size: 11px;
+  text-align: left;
+  white-space: inherit;
+  background: #101300;
+}
+.navbar-default .navbar-nav > li .dropdown-menu {
+  margin-top: 2px;
+}

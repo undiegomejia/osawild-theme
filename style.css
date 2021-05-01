@@ -1,0 +1,19 @@
+/*
+Theme Name:   Entrada Child
+Theme URI:    http://www.waituk.com/entrada
+Description:  Tour Booking Adventure Tour Package Theme - Entrada
+Author:       WAITUK
+Author URI:   http://www.waituk.com
+Template:     entrada
+Version: 3.7.9
+License: Themeforest Regular License
+License URI: http://themeforest.net/licenses/standard
+Tags:         two-columns, three-columns, four-columns, right-sidebar, left-sidebar, full-width-template, custom-background, custom-colors, custom-menu, featured-images, microformats, translation-ready
+Text Domain:  entrada-child
+*/
+
+@import url('../entrada/style.css');
+@import url('../entrada/woocommerce/woocommerce.css');
+/* = Child Theme customization starts here
+
+------------------------------------------------------- */

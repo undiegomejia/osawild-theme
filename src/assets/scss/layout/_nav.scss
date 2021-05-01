@@ -1,0 +1,332 @@
+.dropdown-menu {
+  border-style: solid;
+  display: block;
+  position: absolute;
+  width: auto;
+  left: 0;
+  font-size: 0.9em;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-transition: -webkit-transform 0.3s
+    cubic-bezier(0.17, 0.67, 0.59, 1.21);
+  transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.59, 1.21);
+  background-color: #252525de;
+  & a {
+    font-weight: bold;
+  }
+  & ul > li > a {
+    padding: 10px 70px 10px 15px;
+    &:hover {
+      padding-left: 15px;
+    }
+  }
+}
+span.icon-search {
+  display: none;
+}
+// ul.nav.navbar-nav {
+//   display: none;
+// }
+// ul#menu-navigation {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+// }
+
+.menu-item-gtranslate img {
+  position: relative;
+  top: -2px;
+}
+.navbar-default .navbar-toggle {
+  left: 0;
+}
+
+nav.breadcrumbs {
+  display: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+  background: transparent;
+  border: none;
+}
+.nav-tabs {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.tab-container .nav-tabs > * {
+  float: none;
+  border: none;
+  margin: 0;
+  justify-items: flex-start;
+  width: 333%;
+  text-align: center;
+}
+
+.nav-tabs > li > a {
+  text-align: center;
+}
+.nav-tabs > li > a:hover {
+  border-color: transparent;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+}
+
+span.info {
+  font-size: 11px;
+}
+.navbar-default .navbar-nav > li {
+  padding: 26px 6px 0;
+  display: inline-block;
+}
+.navbar-default {
+  background: transparent;
+  border: none;
+  min-height: 1px;
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-default {
+  font-size: 0.9em;
+}
+
+.navbar-default .open .dropdown-menu {
+  display: none;
+}
+
+.navbar-default .navbar-nav .dropdown.hover > .dropdown-menu {
+  display: block;
+}
+
+.navbar-default .navbar-nav .icon {
+  margin-right: 0;
+}
+
+.navbar-default .navbar-nav > li .dropdown-menu {
+  margin-top: 1px;
+}
+
+.navbar-default .navbar-nav > li.nav-visible {
+  display: inline-block !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li.hover > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li.has-mega-dropdown {
+  position: static;
+}
+
+.navbar-default .navbar-nav > li.active a,
+.navbar-default .navbar-nav > li.open a,
+.navbar-default .navbar-nav > li:focus a {
+  background: none;
+}
+
+.navbar-default .navbar-nav > li.active a:hover,
+.navbar-default .navbar-nav > li.active a:focus,
+.navbar-default .navbar-nav > li.open a:hover,
+.navbar-default .navbar-nav > li.open a:focus,
+.navbar-default .navbar-nav > li:focus a:hover,
+.navbar-default .navbar-nav > li:focus a:focus {
+  background: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  background: none;
+  padding: 0;
+  display: block;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background: none;
+}
+
+.navbar-default .icon-angle-down {
+  display: none;
+}
+
+.navbar-collapse {
+  background: none;
+}
+
+.dropdown-menu {
+}
+
+.dropdown-menu.dropdown-md {
+  min-width: 300px;
+}
+
+.dropdown-menu.dropdown-sm {
+  min-width: 150px;
+}
+
+.dropdown-menu.dropdown-sm .drop-wrap {
+  padding: 10px;
+}
+
+.dropdown-menu.drop-thumb-wide .des {
+  max-width: 80%;
+}
+
+.dropdown-menu.drop-thumb-wide .img-wrap img {
+  max-width: 80%;
+}
+
+.dropdown-menu ul {
+  padding: 9px 0;
+}
+
+.dropdown-menu .drop-wrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-menu .top-title {
+  display: none;
+}
+
+.dropdown-menu .sub-link-opener:before {
+  display: none;
+}
+
+.dropdown-menu .drop-holder .col {
+  max-width: none;
+  margin-top: 0;
+}
+
+.dropdown-menu .drop-holder .col:hover .title,
+.dropdown-menu .drop-holder .col:hover .title a {
+  color: #b0a377;
+}
+
+.dropdown-menu .drop-holder .img-wrap img {
+  max-width: 400px;
+}
+
+.dropdown-menu .drop-holder li {
+  display: block;
+  margin-left: 0;
+  width: auto;
+}
+
+.dropdown-menu .five-col {
+  margin: 0 -15px;
+}
+
+.dropdown-menu .five-col .column {
+  float: left;
+  padding: 0 15px;
+  width: 20%;
+  position: relative;
+}
+
+.dropdown-menu .five-col .column:first-child:before {
+  display: none;
+}
+
+.dropdown-menu .five-col .column:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  background: #181818;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+}
+
+.dropdown-menu .five-col ul {
+  display: block;
+  text-transform: uppercase;
+}
+
+.dropdown-menu .five-col ul li {
+  display: block;
+  width: auto;
+  margin: 0;
+}
+
+.dropdown-menu .five-col ul li a {
+  padding-left: 0;
+}
+
+.dropdown-menu .five-col ul li a:hover {
+  padding-left: 5px;
+}
+
+.dropdown-menu .five-col ul {
+  position: static !important;
+  width: auto !important;
+}
+
+.dropdown-menu .five-col .sub-link-opener {
+  pointer-events: none;
+}
+
+.has-mega-dropdown > .dropdown-menu {
+  left: 10px;
+  right: 10px;
+  width: auto;
+}
+
+.has-mega-dropdown .dropdown-menu {
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.has-mega-dropdown .drop-wrap {
+  padding: 25px 40px;
+}
+
+.dropdown.open > .dropdown-menu {
+  overflow: visible;
+  transform: rotateX(0) translateZ(0);
+  -ms-transform: rotateX(0) translateZ(0);
+  -webkit-transform: rotateX(0) translateZ(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  overflow: visible;
+  transform: rotateX(0) translateZ(0);
+  -ms-transform: rotateX(0) translateZ(0);
+  -webkit-transform: rotateX(0) translateZ(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown:hover .icon-angle-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.has-mega-dropdown.mega-md .dropdown-menu {
+  left: auto;
+  width: 850px;
+  right: 140px;
+}

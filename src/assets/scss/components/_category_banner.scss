@@ -1,0 +1,41 @@
+/* Categorias Info Banner */
+
+.banner {
+  & .banner-inner {
+    background-position: 0rem -13rem !important;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    & .banner-text {
+      position: relative;
+      display: block;
+      top: 0 !important;
+      left: 0;
+      text-align: left;
+      & h1 {
+        font-size: 25px;
+        margin-left: 0;
+        left: 12rem;
+        top: 0.5rem;
+        padding: 5px;
+        display: initial;
+        width: 100%;
+        min-width: 246px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.16);
+      }
+    }
+    & .subtitle {
+      display: none;
+    }
+    & .center-text .container {
+      margin: 0;
+    }
+  }
+}
+
+.content-holder.content-boxed .thumbnail .img-wrap {
+  max-height: 197px;
+}

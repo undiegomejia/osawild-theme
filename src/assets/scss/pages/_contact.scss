@@ -1,0 +1,272 @@
+/* Contacto */
+main.contacto {
+  color: $ow-white;
+}
+form.wpcf7-form {
+  text-align: left;
+}
+strong.form-title {
+  text-align: left !important;
+}
+form.wpcf7-form {
+  text-align: left;
+  margin: 15px;
+  padding: 30px;
+  max-width: 500px !important;
+  background: rgba(0, 0, 0, 0.37) !important;
+  border: solid 2px #a4a4a4 !important;
+}
+span.wpcf7-form-control-wrap {
+  max-width: 400px;
+}
+.jcf-select.jcf-select-wpcf7-form-control {
+  width: 100%;
+  border: 1px solid #afafaf;
+  padding: 10px;
+  height: 35px;
+}
+.wpcf7-form .wpcf7-form-control {
+  width: 100%;
+  border: 1px solid #afafaf;
+  padding: 10px;
+  height: 35px;
+}
+input#btn_sent {
+  max-width: 100%;
+  text-align: center !important;
+  height: 50px;
+  background: #f1952e;
+  border: 0;
+  color: #ffffff;
+  border: solid 1px #f1952e;
+}
+input#btn_sent:hover {
+  background: #96969600;
+}
+input.wpcf7-form-control.wpcf7-intl-tel.wpcf7-intl_tel.wpcf7-validates-as-required {
+  width: 100% !important;
+  border: 1px solid #afafaf;
+  padding: 10px;
+  height: 35px;
+}
+span.wpcf7-form-control-wrap.phone-cf7it-national {
+  text-align: left;
+}
+.intl-tel-input .selected-flag .iti-flag {
+  margin-left: 10px !important;
+}
+form.wpcf7-form {
+  background: rgba(0, 0, 0, 0.16);
+  color: white;
+  border: none;
+  padding: 1.5em;
+  font-size: 12px;
+  max-width: 420px;
+  float: right;
+  border: solid 2px rgba(255, 255, 255, 0.14);
+}
+h2 {
+  color: white;
+}
+.wpcf7-form .wpcf7-form-control {
+  color: #f1f1f1;
+}
+span.wpcf7-form-control-wrap.phone-cf7it-national {
+  color: #909090;
+  font-size: 10px;
+  overflow: initial;
+}
+.wpcf7-form p {
+  overflow: visible;
+  padding: 0;
+  margin: 1em 0 0;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: #46b450;
+  background: #63b770;
+  padding: 0.99em;
+  margin: 0;
+}
+
+.jcf-select.jcf-select-wpcf7-form-control .jcf-select-text {
+  color: #f1f1f1;
+}
+.wpb_wrapper p {
+  margin: 0;
+}
+.wpb_wrapper h2 {
+  margin: 0;
+}
+.wpcf7-form .form-title {
+  font-size: 13px;
+  width: auto;
+  text-align: right;
+  min-width: 140px;
+}
+
+.partner-block header.content-heading h2 {
+  color: #1e1d1b;
+}
+div#contact_row {
+  padding: 8em 0;
+}
+div#contact_row .vc_parallax-inner {
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.intl-tel-input {
+  width: 62.111%;
+  float: right;
+  left: -120px;
+}
+
+ul.country-list {
+  color: black;
+  left: 11px;
+}
+
+input.wpcf7-form-control.wpcf7-intl-tel.wpcf7-intl_tel.wpcf7-validates-as-required {
+  text-indent: 32px;
+  width: 162% !important;
+  border: 1px solid #afafaf;
+  padding: 10px;
+  height: 35px;
+  margin-left: 10px !important;
+}
+
+.iti-arrow {
+  left: 40px;
+}
+
+.wpcf7-mail-sent-ok {
+  background: #489e48;
+  color: #fffdf9;
+  font-size: 13px;
+  padding: 2em !important;
+  border-color: #369336 !important;
+  margin: 1em 0 !important;
+  border-width: 2px !important;
+}
+/*Contact Page*/
+
+body.page-template-contact,
+body.page-template-booknow {
+  background-image: url(/wp-content/uploads/2016/04/contacto-op2.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+body.page-template-contact #footer-wild,
+body.page-template-booknow #footer-wild {
+  display: none;
+}
+
+body.page-template-contact main#main,
+body.page-template-booknow main#main {
+  background: #000000b8;
+  padding: 2em 5em;
+  margin: 8em auto 1em;
+  color: white;
+  text-align: center;
+  max-width: 768px;
+}
+
+body.page-template-contact main#main a,
+body.page-template-booknow main#main a {
+  color: $ow-white;
+  border-color: $ow-orange;
+  &.primario {
+    font-size: 2rem;
+    color: $ow-white;
+    margin-bottom: 10px;
+    margin-top: 3rem;
+    & img.cr-flag {
+      top: 7px;
+    }
+  }
+}
+
+body.page-template-contact main#main p,
+body.page-template-booknow main#main p {
+  text-align: center;
+}
+
+section.formulario form {
+  margin: 1em 0;
+}
+
+a.boton-contact {
+  border: 1px solid;
+  padding: 0.2em 0.5em;
+  color: #f1952e;
+  margin-top: 1rem;
+  display: inline-block;
+  & .telefono .primario {
+    font-size: 2rem;
+  }
+  &--email {
+    border-color: $ow-orange;
+  }
+}
+section.formulario {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.wpcf7-form .wpcf7-submit:hover {
+  background: #f1952e;
+}
+
+body.page-template-contact main#main h5,
+body.page-template-booknow main#main h5 {
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+body.page-template-contact main#main h4,
+body.page-template-bookwnow main#main h4 {
+  font-size: 22px;
+}
+
+a.boton-contact.telefono img.cr-flag {
+  max-width: 22px;
+  margin: 0 5px 0 0;
+  padding: 0;
+  position: relative;
+  top: 2px;
+}
+
+section.formulario form h2 {
+  margin: 0;
+}
+
+section.formulario form label {
+  width: 100%;
+  text-align: right;
+}
+
+.social-chat {
+  display: flex;
+  justify-content: center;
+  &--boton {
+    width: 3.33rem;
+    padding: 0rem;
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 2rem 4rem 0;
+    min-width: 3.3rem;
+  }
+  & a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+/* Testimonial Block */
+
+div#tripadvisor-testimonials {
+  border-right: solid 5px #37a34c;
+  & img {
+    margin-bottom: 2em;
+    padding: 3em;
+  }
+  & .btn {
+    font-size: 12px !important;
+  }
+}
+
+div#testimonial-home-slide {
+  max-width: 1000px;
+  & blockquote.testimonial-quote {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    border: none;
+    & .img {
+      height: 112px;
+      width: 112px;
+      & img {
+        height: 100%;
+      }
+    }
+  }
+}

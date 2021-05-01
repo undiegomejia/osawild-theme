@@ -1,0 +1,127 @@
+/* Iconos Categoria */
+
+.banner-text:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  left: 40px;
+  top: -2.6rem;
+  height: 90px;
+  width: 90px;
+  width: 85px;
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+section.container-fluid.trip-info .description {
+  max-width: 80%;
+  margin: 0 auto 3em;
+}
+body.product_cat_corcovado-adventures .banner-text:before {
+  background-image: url(/wp-content/uploads/2017/10/corcovadoadventures.png);
+}
+body.product_cat_corcovado-adventures section.trip-info .text-col:before {
+  content: '';
+  position: absolute;
+  right: 90%;
+  top: 15em;
+  background: url(/wp-content/uploads/2017/10/corcovadoadventures.png);
+  width: 131px;
+  height: 131px;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: 0;
+}
+body.product_cat_biodiversity-people-nature .banner-text:before {
+  background-image: url(/wp-content/uploads/2017/10/biodiversity.png);
+}
+body.product_cat_biodiversity-people-nature section.trip-info .text-col:before {
+  content: '';
+  position: absolute;
+  right: 90%;
+  top: 15em;
+  background: url(/wp-content/uploads/2017/10/biodiversity.png);
+  width: 131px;
+  height: 131px;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: 0;
+}
+body.term-cultural-spark .banner-text:before {
+  background-image: url(/wp-content/uploads/2017/10/cultural-spark.png);
+}
+body.product_cat_cultural-spark section.trip-info .text-col:before {
+  content: '';
+  position: absolute;
+  right: 90%;
+  top: 15em;
+  background: url(/wp-content/uploads/2017/10/cultural-spark.png);
+  width: 131px;
+  height: 131px;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: 0;
+}
+body.term-fun-wild-adventures .banner-text:before {
+  background-image: url(/wp-content/uploads/2017/10/fun-wild.png);
+}
+body.product_cat_fun-wild-adventures section.trip-info .text-col:before {
+  content: '';
+  position: absolute;
+  right: 90%;
+  top: 15em;
+  background: url(/wp-content/uploads/2017/10/fun-wild.png);
+  width: 131px;
+  height: 131px;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: 0;
+}
+body.product_cat_cultural-spark section.trip-info .text-col:before {
+  content: '';
+  position: absolute;
+  right: 90%;
+  top: 15em;
+  background: url(/wp-content/uploads/2017/10/cultural-spark.png);
+  width: 131px;
+  height: 131px;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: 0;
+}
+body.term-golfo-dulce-magic .banner-text:before {
+  background-image: url(/wp-content/uploads/2017/10/magic-golfodulce.png);
+}
+body.product_cat_golfo-dulce-magic section.trip-info .text-col:before {
+  content: '';
+  position: absolute;
+  right: 90%;
+  top: 15em;
+  background: url(/wp-content/uploads/2017/10/magic-golfodulce.png);
+  width: 131px;
+  height: 131px;
+  background-repeat: no-repeat;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: 0;
+}
+body.term-educational-scientific-tourism .banner-text:before {
+  background-image: url(/wp-content/uploads/2018/04/educational.png);
+}
+.trip-info {
+  color: #fafafa;
+  background: #2d2d2d;
+}

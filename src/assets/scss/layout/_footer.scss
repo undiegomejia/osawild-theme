@@ -1,0 +1,39 @@
+footer .footer-holder {
+  background: rgba(37, 37, 37, 0.59);
+  padding: 1em;
+  margin: 0;
+}
+footer .footer-nav {
+  margin: 0;
+  padding: 0;
+}
+#footer-wild {
+  background-image: url(/wp-content/uploads/2017/09/OWoffice-01-black.jpg);
+  background-position: 0;
+  background-attachment: fixed;
+  background-position: 0;
+  background-size: cover;
+  z-index: 2;
+  position: relative;
+}
+#footer-wild .mapa {
+  padding: 0;
+  opacity: 0.9;
+  overflow: hidden;
+  max-width: 420px;
+  margin: 0 auto;
+  float: right;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+#footer > .container {
+  @include respond(tab-port) {
+    padding: 4em 0;
+  }
+}
