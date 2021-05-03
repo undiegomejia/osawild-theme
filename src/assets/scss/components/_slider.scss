@@ -4,6 +4,14 @@
   margin: auto;
   height: 100vh;
   overflow: hidden;
+  top: 0;
+  position: relative;
+  @include respond(tab-land){
+    top:  -68px;
+  }
+  @include respond(phone){
+    top:  0;
+  }
   & .ow-slide {
     height: 100vh;
   }
@@ -139,6 +147,9 @@
   justify-content: center;
   overflow-x: auto;
   flex-wrap: nowrap;
+  @include respond(tab-land){
+    justify-content: start;
+  }
   &__icon{
     padding: 1rem;
     display: inline-table;

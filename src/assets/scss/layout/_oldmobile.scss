@@ -16,9 +16,6 @@
     background: #f8f8f8eb;
     border-bottom: none;
   }
-  .banner.banner-inner {
-    background-position: center -22rem !important;
-  }
   .logo {
     width: 240px;
     height: 70px;
@@ -39,12 +36,6 @@
 
   .content-intro {
     padding-bottom: 0;
-  }
-  .banner.banner-inner .banner-text {
-    bottom: 15px;
-  }
-  .banner.banner-inner .banner-text .center-text {
-    margin: 0;
   }
   .content-intro .text-holder {
     padding-top: 3em;
@@ -82,20 +73,6 @@
   .logo a {
     padding: 0.55rem;
   }
-  .banner-inner .banner-text h1 {
-    left: 0;
-    font-size: 1.2em;
-    display: block;
-  }
-
-  .banner.banner-inner {
-    justify-content: flex-start;
-  }
-
-  .banner-text:before {
-    top: -9rem;
-    left: 0;
-  }
 }
 
 @media screen and (max-width: 576px) {
@@ -103,9 +80,6 @@
     position: fixed;
     width: 100%;
     margin-top: 0;
-  }
-  .banner.banner-inner {
-    background-position: -17rem -7rem !important;
   }
 }
 
