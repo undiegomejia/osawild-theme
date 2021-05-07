@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@dile/dile-input": "^1.0.1",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "social-icon": "^1.2.1"
   }
 }

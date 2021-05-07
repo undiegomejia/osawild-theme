@@ -2,14 +2,13 @@
 
 .banner {
   &.banner-inner {
-    background-position: 0rem -13rem !important;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top:  0;
-    background-position: bottom!important;
+   background-position: 0rem -23vh!important;
     @include respond(tab-land){
       top:  -68px;
     }
