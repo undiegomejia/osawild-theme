@@ -6,6 +6,7 @@
   overflow: hidden;
   top: 0;
   position: relative;
+  background-color: $ow-black;
   @include respond(tab-land){
     top:  -68px;
   }
@@ -20,7 +21,7 @@
     font-size: 32px;
     position: absolute;
     padding: 8px 12px;
-    top: 25%;
+    top: 33vh;
     width: 100%;
     text-align: center;
     text-shadow: 3px 3px 13px $ow-black-opa-dark;
@@ -64,17 +65,17 @@
   }
   & .ow-fade {
     animation-name: ow-fade;
-    animation-duration: 0.333s;
+    animation-duration:  0.5s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
   
     -webkit-animation-name: ow-fade;
-    -webkit-animation-duration: 0.333s;
+    -webkit-animation-duration:  0.5s;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-direction: alternate;
   
     -moz-animation-name: ow-fade;
-    -moz-animation-duration: 0.333s;
+    -moz-animation-duration: 0.5s;
     -moz-animation-timing-function: ease-in-out;
     -moz-animation-direction: alternate;
   }

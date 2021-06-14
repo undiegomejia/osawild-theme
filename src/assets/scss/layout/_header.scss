@@ -2,6 +2,16 @@ header#header {
   background: $ow-black-opa-dark;
   border-bottom: none;
   height: auto;
+  & .gray-logo{
+    max-height: 100%!important;
+  } 
+  & .logo a {
+    top:0
+  }
+  & .logo img {
+    max-width: 220px;
+    margin-top: 10px !important;
+  }
 }
 
 #header.fixed-position .search-form .search-opener {
